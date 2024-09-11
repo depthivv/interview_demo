@@ -1,0 +1,5 @@
+<apex:page standardController="PDF_Data__c" renderAs="pdf">
+    <h1>First Name {!PDF_Data__c.First_Name__c}</h1>
+ <h1>Last Name {!PDF_Data__c.Last_Name__c}</h1>
+    <!-- Add more fields as needed -->
+</apex:page>
